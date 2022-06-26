@@ -76,11 +76,16 @@ a {
     background-color: rgb(216, 135, 174);
 }
 
+.banner_rotativo {
+    margin-top: 30px;
+}
+
 .novidades_box {
     display: flex;
     justify-content: space-between;
     height: 60px;
     background-color: rgb(0, 0, 0);
+    margin-top: 10px;
     margin-bottom: 20px;
 }
 
@@ -101,7 +106,7 @@ a {
 .todas_novidades {
     font-family: 'Ropa Sans';
     font-size: 16px;
-    background-color: #a85066;
+    background-color: #8f1a1f;
     color: white;
     border: none;
     width: 150px;
@@ -119,7 +124,7 @@ a {
 section .produtos_box {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
 
 section .produto01 {
@@ -127,8 +132,8 @@ section .produto01 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #a85066;
-    width: 240px;
+    background-color: #8f1a1f;
+    width: 230px;
     height: 330px;
     font-family: 'Ropa Sans';
     color: white;
@@ -156,7 +161,7 @@ section .produto01_button:hover {
     display: flex;
     justify-content: space-between;
     height: 60px;
-    background-color: rgb(0, 0, 0);
+    background-color: #8f1a1f;
     margin-bottom: 5px;
     margin-top: 20px;
 }
@@ -188,6 +193,24 @@ section .produto01_button:hover {
     margin-right: 10px;
 }
 
+.cadastro {
+    font-family: 'Ropa Sans';
+    font-size: 16px;
+    background-color: #807a7a;
+    color: white;
+    border: none;
+    width: 150px;
+    height: 42px;
+    border-radius: 5px;
+    transition: background-color color;
+    transition-duration: 0.5s;
+}
+
+.cadastro:hover  {
+    background-color: rgb(207, 14, 149);
+    color: black;
+}
+
 form {
     display: flex;
     align-items: center;
@@ -217,10 +240,14 @@ footer {
     justify-content: center;
 }
 
+.pix {
+    align-self: center;
+}
+
 .foot_infobox {
     display: flex;
     justify-content: space-around;
-    background-color: #a85066;
+    background-color: #8f1a1f;
     color: white;
     width: 1000px;
     height: 250px;
@@ -270,4 +297,5 @@ hr {
 .all_content {
     margin: 0 auto;
     width: 1000px;
+    background-color: black;
 }

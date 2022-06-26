@@ -80,6 +80,12 @@ a {
     font-family: 'Ropa Sans';
     margin-left: 10px;
     margin-bottom: 30px;
+    color:white;
+    font-size: 26px;
+}
+
+.cat_info p {
+    font-size: 16px;
 }
 
 .top_bar {
@@ -99,7 +105,7 @@ section .produtos_box {
     display: flex;
     justify-content: space-around;
     margin-top: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
 
 section .produto01 {
@@ -107,8 +113,8 @@ section .produto01 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #a85066;
-    width: 240px;
+    background-color: #8f1a1f;;
+    width: 230px;
     height: 330px;
     font-family: 'Ropa Sans';
     color: white;
@@ -164,10 +170,14 @@ footer {
     justify-content: center;
 }
 
+.pix {
+    align-self: center;
+}
+
 .foot_infobox {
     display: flex;
     justify-content: space-around;
-    background-color: #a85066;
+    background-color: #8f1a1f;;
     color: white;
     width: 1000px;
     height: 250px;
@@ -217,4 +227,5 @@ hr {
 .all_content {
     margin: 0 auto;
     width: 1000px;
+    background-color: black;
 }

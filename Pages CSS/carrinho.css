@@ -54,51 +54,6 @@ a {
     text-decoration: none;
 }
 
-section .categoria {
-    display: flex;
-}
-
-.fav_box {
-    display: flex;
-    justify-content: space-between;
-    height: 60px;
-    background-color: rgb(0, 0, 0);
-    margin-bottom: 20px;
-    margin-top: 25px;
-}
-
-.fav_title {
-    display: flex;
-    align-items: center;
-    font-family: 'Ropa Sans';
-    font-size: 26px;
-    color: white;
-    margin-left: 10px;
-}
-
-.fav_button {
-    align-self: center;
-    margin-right: 10px;
-}
-
-.voltar_home {
-    font-family: 'Ropa Sans';
-    font-size: 16px;
-    background-color: #8f1a1f;;
-    color: white;
-    border: none;
-    width: 150px;
-    height: 42px;
-    border-radius: 5px;
-    transition: background-color color;
-    transition-duration: 0.5s;
-}
-
-.voltar_home:hover {
-    background-color: rgb(207, 14, 149);
-    color: black;
-}
-
 .box_content {
     display: flex;
     flex-direction: column;
@@ -121,83 +76,98 @@ section .categoria {
     background-color: rgb(216, 135, 174);
 }
 
-.cat_info {
-    font-family: 'Ropa Sans';
-    margin-left: 20px;
-    margin-bottom: 20px;
-}
-
-.top_bar {
+.carrinho_title {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    background-color: #8f1a1f;
     font-family: 'Ropa Sans';
+    font-size: 26px;
     color: white;
-    border-radius: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-bottom: 20px;
-}
-
-section .produtos_box {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 10px;
-    margin-bottom: 5px;
-}
-
-section .produto01 {
-    display: flex;
-    flex-direction: column;
+    margin-left: 10px;
     justify-content: center;
-    align-items: center;
-    background-color: #8f1a1f;;
-    width: 230px;
-    height: 330px;
-    font-family: 'Ropa Sans';
-    color: white;
-    font-size: 14px;
-    line-height: 0px;
-    margin-bottom: 10px;
 }
 
-section .produto01_button {
-    width: 200px;
-    height: 35px;
-    font-size: 16px;
-    font-family: 'Ropa Sans';
-    border: none;
-    border-radius: 5px;
-    transition: background-color color;
-    transition-duration: 0.5s;
-}
-
-section .produto01_button:hover {
-    background-color: rgb(83, 38, 206);
-    color: white;
-}
-
-.bottom_bar {
+.produtos_box {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #8f1a1f;
-    font-family: 'Ropa Sans';
-    color: white;
-    height: 45px;
-    border-radius: 5px;
-    padding-left: 300px;
-    padding-right: 300px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-.pag_button {
-    font-family: 'Ropa Sans';
-    width: 100px;
-    height: 30px;
+.foto_produto {
+    margin-left: 40px;
+    margin-right: 10px;
 }
+
+.quantidade {
+    display: flex;
+    align-items: center;
+}
+
+.quantidade p {
+    color: white;
+    margin-left: 5px;
+    font-family: 'Ropa Sans';
+}
+
+.info_produto {
+    color: white;
+    font-family: 'Ropa Sans';
+}
+
+label {
+    color: white;
+    font-family: 'Ropa Sans';
+}
+
+.price {
+    color: white;
+    font-family: 'Ropa Sans';
+    font-size: 20px;
+}
+
+.sub_box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.subtotal {
+    color: white;
+    font-family: 'Ropa Sans';
+    text-align: center;
+    align-self: center;
+    background-color: #8f1a1f;
+    width: 250px;
+    height: 70px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.finalizar_button button {
+    font-family: 'Ropa Sans';
+    width: 250px;
+    height: 70px;
+    font-size: 24px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    transition-property: background-color color;
+    transition-duration: 0.5s;
+}
+
+.finalizar_button button:hover {
+    background-color: rgb(79, 153, 79);
+}
+
+hr {
+    width: 920px;
+    border: none;
+    height: 2px;
+    background-color: white;
+}
+
+
 
 footer {
     display: flex;
@@ -254,7 +224,7 @@ footer {
     margin-right: 15px;
 }
 
-hr {
+footer hr {
     width: 250px;
 }
 
